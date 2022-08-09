@@ -1251,6 +1251,7 @@ animation: fade-in .4s ease;
       flex-direction: column;
       margin-top: 200px;
       margin-bottom: 48px;
+      z-index: 2;
     }
 
     .intro__img#dawn-footer{
@@ -1571,6 +1572,13 @@ line-height: 141.5%;
     .form__item{
         width: 340px;
     }
+
+    p#status{
+        padding-top: 40px;
+    /* height: 20px; */
+    padding-left: 40px;
+    display: block;
+    }
     }
 .form__button{
     width: 346px;
@@ -1585,6 +1593,8 @@ line-height: 141.5%;
         width: 220px;
     height: 50px;
     padding: 0;
+    position: absolute;
+    z-index: 1;
     }
 
 }
