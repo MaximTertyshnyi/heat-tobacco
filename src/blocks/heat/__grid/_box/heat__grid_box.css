@@ -1,0 +1,16 @@
+.heat__grid_box{
+    position: relative;
+    align-self: baseline;
+    margin: auto auto 48px auto;
+}
+
+@media (max-width: 700px) {
+
+    .heat__grid_box{
+        margin: auto auto 55px auto;
+    }
+
+    .heat__grid_box:last-child{
+        margin: auto auto 0 auto;
+    }
+}

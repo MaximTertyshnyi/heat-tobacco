@@ -1,0 +1,16 @@
+.form__button{
+    width: 346px;
+    height: 89px;
+    background-color: white;
+    border: .5px solid white;
+    border-radius: 15em 15em;
+} 
+
+@media (max-width: 767px){
+    .form__button{
+        width: 220px;
+    height: 50px;
+    padding: 0;
+    }
+
+}

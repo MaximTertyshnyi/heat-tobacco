@@ -1,0 +1,7 @@
+.base{
+    background-color: #000000;
+    background-image: url(../../images/Vector.svg);
+    font-family: 'Jost';
+    scroll-behavior: auto;
+  }
+

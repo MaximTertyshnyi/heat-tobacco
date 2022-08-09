@@ -1,0 +1,17 @@
+.preparation__grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 195px;
+        padding: 0;
+        margin: 113px 0 0 0;
+        width: calc(100% - 264px);
+}
+
+@media (max-width: 700px) {
+
+        .preparation__grid{
+          display: flex;
+          flex-direction: column;
+          width: 100%
+        }
+    }

@@ -1,0 +1,17 @@
+.buy__grid{
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 155px;
+        padding: 0;
+        margin: -85px auto 0 auto;
+        width: calc(100% - 96px);
+}
+
+@media (max-width: 767px){
+    .buy__grid{
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+      width: auto;
+    }
+    }

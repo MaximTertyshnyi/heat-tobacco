@@ -1,0 +1,10 @@
+.footer__links-list:last-of-type(){
+  margin-bottom: 130px;
+}
+ 
+ @media (max-width: 767px){
+    .footer__links-list{
+        margin-bottom: 17px;
+    }
+
+}

@@ -1,0 +1,31 @@
+.header__lang-link{
+  text-decoration: none;
+  margin-right: 120px;
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 300;
+  color: #FFFFFF;
+  transition: opacity .5s;
+}
+
+.header__lang-link:last-child{
+  padding-right: 130px;
+  margin-right: 0;
+  width: 30px;
+}
+
+.header__lang-link:hover{
+  opacity: .8;
+}
+
+@media (max-width: 767px){
+  .header__lang-link{
+    font-weight: 300;
+font-size: 18px;
+line-height: 36px;
+margin-right: 0;
+  }
+  .hidden{
+    display: none;
+  }
+}

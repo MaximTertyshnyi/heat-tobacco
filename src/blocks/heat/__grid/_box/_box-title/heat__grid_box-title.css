@@ -1,0 +1,15 @@
+.heat__grid_box-title{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+}
+
+@media (max-width: 767px){
+    .heat__grid_box-title{
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+  }

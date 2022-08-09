@@ -1,0 +1,17 @@
+.popup__logo{
+    display: block;
+    width: 130px;
+    height: 74px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 65px;
+}
+
+@media (max-width: 767px){
+    .popup__logo{
+        width: 100px;
+        height: 54px;
+        margin: auto;
+        padding-top: 25px;
+    }
+  }

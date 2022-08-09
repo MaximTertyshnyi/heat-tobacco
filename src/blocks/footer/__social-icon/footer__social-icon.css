@@ -1,0 +1,17 @@
+.footer__social-icon{
+    margin-bottom: 62px;
+    transition: opacity .5s;
+}
+
+
+.footer__social-icon:hover{
+  opacity: .6;
+}
+
+@media (max-width: 767px){
+  .footer__social-icon{
+    width: 39px;
+    height: 23px;
+    margin-bottom: 45px;
+  }
+}

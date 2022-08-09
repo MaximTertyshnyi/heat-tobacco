@@ -1,0 +1,11 @@
+.buy__grid_box{
+    position: relative;
+    align-self: center;
+}
+
+@media (max-width: 700px) {
+
+    .buy__grid_box{
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,11 @@
+.preparation{
+    width: calc(100% - 260px);
+    margin: auto auto 120px auto;
+}
+
+@media (max-width: 767px){
+    .preparation{
+        width: calc(100% - 110px);
+        margin: auto auto 60px auto;
+    }
+  }

@@ -1,0 +1,14 @@
+.heat__grid_box-img{
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 767px){
+    .heat__grid_box-img{
+     width: 30%;
+
+    }
+    .union{
+        width: 65%;
+    }
+  }

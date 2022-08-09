@@ -1,0 +1,17 @@
+.footer__column-links{
+    display: flex;
+    flex-flow: column;
+    margin-right: 30px;
+}
+
+@media (max-width: 767px){
+    .footer__column-links{
+      position: absolute;
+      right: 75px;
+      z-index: 1;
+      margin-right: -30px;
+    }
+    .footer__column-links:last-child{
+      margin-bottom: 0;
+    }
+}
