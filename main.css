@@ -1254,10 +1254,12 @@ animation: fade-in .4s ease;
       z-index: 2;
     }
 
-    .intro__img#dawn-footer{
+    .img#dawn-footer{
       position: relative;
       padding-left: 0;
       padding-bottom: 20px;
+      height: 33px;
+    width: 33px;
     }
 }
 .footer__link{
