@@ -1098,7 +1098,7 @@ text-align: center;
 .preparation__grid{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        column-gap: 195px;
+        /* column-gap: 195px; */
         padding: 0;
         margin: 113px 0 0 0;
         /* width: calc(100% - 264px); */
@@ -1831,7 +1831,7 @@ line-height: 20px;
 
   .card__content_down-img{
     width: 350px;
-    max-height: 230px;
+    max-height: 210px;
     object-fit: contain;
   }
 
@@ -1875,6 +1875,17 @@ line-height: 20px;
     padding: 15px 18px;
     border: 1px solid white;
     border-radius: 50%;
+  }
+
+  @media (max-width: 1600px){
+    .card__content_down-img{
+      width: 350px;
+      max-height: 190px;
+      object-fit: contain;
+    }
+    .card__content_down{
+      height: 350px;
+    }
   }
 
 
